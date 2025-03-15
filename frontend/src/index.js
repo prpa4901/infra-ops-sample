@@ -5,6 +5,7 @@ import App from './App';
 //import Dashboard from './components/Dashboard';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -36,14 +36,13 @@ function App() {
   return (
     <Router>
       <div className="flex h-screen bg-gray-100">
-        <Sidebar />
+        <Sidebar /> {/* Sidebar component used here */}
         <div className="flex-1 flex flex-col overflow-hidden">
-          <Header />
+          <Header /> {/* Header component used here */}
           <main className="flex-1 overflow-y-auto p-4">
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/network-scanner" element={<NetworkScanner />} />
-              {/* Add more routes as needed */}
             </Routes>
           </main>
         </div>
